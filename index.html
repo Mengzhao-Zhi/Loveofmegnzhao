@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#portfolio">作品</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 首页区域 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>你好，我是 <span>设计师</span></h1>
+            <p>专注于UI/UX设计和前端开发</p>
+            <a href="#portfolio" class="btn">查看我的作品</a>
+        </div>
+    </section>
+
+    <!-- 关于我区域 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名专业的设计师和前端开发者，拥有5年的行业经验。我热衷于创造美观、实用的用户界面，并且擅长将设计转化为功能完善的网站。</p>
+                    <p>我的技术栈包括HTML5、CSS3、JavaScript、React等，同时我也熟悉UI/UX设计原则和工具，如Figma、Sketch等。</p>
+                    <p>我相信好的设计应该是直观的、用户友好的，并且能够解决实际问题。我致力于通过我的作品为用户创造更好的体验。</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20portrait%20of%20a%20designer%20working%20at%20desk&image_size=portrait_4_3" alt="设计师照片">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品展示区 -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>我的作品</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20website%20design%20project&image_size=square" alt="作品1">
+                    <h3>企业官网设计</h3>
+                    <p>为科技公司设计的响应式官网，注重用户体验和品牌展示。</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=mobile%20app%20ui%20design&image_size=square" alt="作品2">
+                    <h3>移动应用UI设计</h3>
+                    <p>健康追踪应用的用户界面设计，简洁直观，易于使用。</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=ecommerce%20website%20design&image_size=square" alt="作品3">
+                    <h3>电子商务网站</h3>
+                    <p>时尚电商平台的设计与开发，注重产品展示和购物体验。</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=portfolio%20website%20design&image_size=square" alt="作品4">
+                    <h3>个人作品集网站</h3>
+                    <p>为艺术家设计的作品集网站，展示其作品和创作过程。</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=landing%20page%20design&image_size=square" alt="作品5">
+                    <h3>产品着陆页</h3>
+                    <p>为 SaaS 产品设计的着陆页，突出产品特点和价值主张。</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dashboard%20ui%20design&image_size=square" alt="作品6">
+                    <h3>数据分析仪表板</h3>
+                    <p>为企业设计的数据分析仪表板，清晰展示关键指标。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式区域 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><strong>邮箱：</strong>contact@example.com</p>
+                    <p><strong>电话：</strong>+86 123 4567 8910</p>
+                    <p><strong>地址：</strong>北京市朝阳区</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="您的姓名" required>
+                    <input type="email" placeholder="您的邮箱" required>
+                    <textarea placeholder="您的留言" required></textarea>
+                    <button type="submit" class="btn">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 个人作品集. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
